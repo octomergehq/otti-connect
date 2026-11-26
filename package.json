@@ -1,0 +1,35 @@
+{
+  "name": "@octomerge/otti-connect",
+  "version": "0.0.196-prod.1795729981230.gf72d703abaf0a9ad2610f287ab9f35493d049e60",
+  "private": true,
+  "description": "Otti Connect, Octomerge's open-source connector: runs a person's own signed-in coding agents (Claude Code, Codex, Antigravity's CLI), at the versions Octomerge tests, for Octomerge, speaking the Octomerge connector protocol (PROTOCOL.md).",
+  "license": "Apache-2.0",
+  "homepage": "https://octomerge.dev",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/octomergehq/otti-connect.git"
+  },
+  "type": "module",
+  "bin": {
+    "otti-connect": "./dist/otti-connect.mjs"
+  },
+  "files": [
+    "dist/otti-connect.mjs",
+    "PROTOCOL.md",
+    "README.md",
+    "TERMS.md",
+    "LICENSE",
+    "NOTICE"
+  ],
+  "scripts": {
+    "build": "bun build src/main.ts --target=node --format=esm --outfile=dist/otti-connect.mjs",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "24.12.2",
+    "typescript": "5.9.3"
+  }
+}

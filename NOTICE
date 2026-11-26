@@ -1,0 +1,14 @@
+Otti Connect
+Copyright 2026 The Otti Connect Authors
+
+This product is licensed under the Apache License, Version 2.0 (LICENSE).
+
+Claude Code, the Claude Agent SDK, Codex and Google Antigravity's CLI are
+products of their owners, under their own licenses and terms. Otti Connect
+does not include them: it runs the copies installed on the computer it runs
+on, or that its container image installs from their owners' releases.
+
+Claude, Claude Code, Codex, ChatGPT, Antigravity and Gemini are trademarks of
+their owners, Anthropic, OpenAI and Google. Otti Connect names them only to
+say which agents it runs. Otti Connect isn't made, affiliated with or endorsed
+by Anthropic, OpenAI or Google.
