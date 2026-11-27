@@ -1,6 +1,6 @@
 {
   "name": "@octomerge/otti-connect",
-  "version": "0.0.196-prod.1795770434677.gb813d339f4f75eec3298d787f8101635323d7ff5",
+  "version": "0.0.196-prod.1795786183099.gc3dcbb96f3844f7a5f7ea01a22f3080d416f60f6",
   "private": true,
   "description": "Otti Connect, Octomerge's open-source connector: runs a person's own signed-in coding agents (Claude Code, Codex, Antigravity's CLI), at the versions Octomerge tests, for Octomerge, speaking the Octomerge connector protocol (PROTOCOL.md).",
   "license": "Apache-2.0",
